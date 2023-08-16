@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: vanaritapipelinesjavascriptdocker 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vanaritapipelinesjavascriptdocker
+  template:
+    metadata:
+      labels:
+        app: vanaritapipelinesjavascriptdocker 
+    spec:
+      containers:
+        - name: vanaritapipelinesjavascriptdocker 
+          image: test0448azuma.azurecr.io/vanaritapipelinesjavascriptdocker
+          ports:
+          - containerPort: 8080
