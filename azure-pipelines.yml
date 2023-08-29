@@ -56,7 +56,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'vanaritapipelinesjavascriptdocker.default'
+    environment: 'CosmosDB-PG-test-8bc44c15a59a42f3b9e8256f725dd143'
     strategy:
       runOnce:
         deploy:
