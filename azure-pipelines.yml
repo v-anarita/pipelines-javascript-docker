@@ -61,7 +61,6 @@ stages:
 CosmosDB-PG-test-8bc44c15a59a42f3b9e8256f725dd143＞'
         resourceName: '＜CosmosDB-PG-test-8bc44c15a59a42f3b9e8256f725dd143＞'
         resourceType: '＜CosmosDB-PG-test-8bc44c15a59a42f3b9e8256f725dd143＞'
-
     strategy:
       runOnce:
         deploy:
